@@ -142,22 +142,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
         </div>
 
-        {/* Public Service & Legal Responsibility Box */}
-        <div className="mt-12 pt-8 border-t border-[#365E65]/30 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-[#DFE3E2]/70">
-          <div className="md:col-span-2 space-y-2">
-            <h5 className="font-semibold text-[#F7F5F0]">운영 원칙 및 법적 면책 조항</h5>
-            <p className="leading-relaxed">
-              본 플랫폼은 릴게임과 관련된 역사적 사건, 기계적 구조, 당시 대중문화 현상을 기록·해설하기 위해 운영되는 비영리 목적의 아카이브입니다. ‘홍박사’는 브랜드 명칭이며 실존 박사학위나 공인 감정 자격을 암시하지 않습니다. 본 사이트는 게임 실행, 머니 베팅, 계좌 입금, 사설 환전, 도박 중개 기능을 일절 제공하지 않으며 불법 도박을 엄격히 반대합니다.
-            </p>
-          </div>
-          <div className="p-4 bg-[#101B29] rounded-lg border border-[#365E65]/50 flex flex-col justify-between">
-            <div>
-              <span className="text-[11px] font-medium text-[#D2AE78] block">도박문제 24시간 상담전화</span>
-              <span className="text-base font-bold text-white tracking-wide">국번없이 1336</span>
-              <span className="text-[11px] text-[#DFE3E2]/60 block mt-1">한국도박문제예방치유원 넷라인 무료상담</span>
-            </div>
-          </div>
-        </div>
 
         {/* Bottom Copyright */}
         <div className="mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#DFE3E2]/50">

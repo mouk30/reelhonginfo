@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { SearchModal } from './components/SearchModal';
-import { SeoDebugPanel } from './components/SeoDebugPanel';
 import { HomeView } from './views/HomeView';
 import { EncyclopediaView } from './views/EncyclopediaView';
 import { GamesListView } from './views/GamesListView';
@@ -266,8 +265,6 @@ export default function App() {
         onNavigate={navigate}
       />
 
-      {/* Real-time SEO Debugging Inspector Panel */}
-      <SeoDebugPanel currentPath={currentPath} />
     </div>
   );
 }
