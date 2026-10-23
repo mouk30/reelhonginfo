@@ -1,0 +1,17 @@
+{
+  "name": "릴게임 홍박사 | 사이트 INFO",
+  "short_name": "HONG INFO",
+  "description": "릴게임의 역사와 문화, 기술적 원리와 용어 아카이브",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F5F0",
+  "theme_color": "#172637",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64 128x128 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

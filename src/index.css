@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F7F5F0;
+    --navy-ink: #172637;
+    --navy-midnight: #101B29;
+    --teal-editorial: #365E65;
+    --copper-premium: #B88C61;
+    --gold-soft: #D2AE78;
+    --charcoal: #20272D;
+    --slate-muted: #68747D;
+    --border-editorial: #DFE3E2;
+    --white: #FFFFFF;
+
+    --font-sans: 'Pretendard Variable', Pretendard, 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --font-serif: 'Noto Serif KR', 'MaruBuri', Georgia, serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--bg-primary);
+    color: var(--navy-ink);
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F7F5F0;
+    color: #172637;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(184, 140, 97, 0.25);
+    color: #101B29;
+  }
+}
+
+/* Custom Editorial Utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.editorial-container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .editorial-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.reading-prose {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.82;
+  letter-spacing: -0.015em;
+}
+
+/* Custom scrollbar for research reading */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F5F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DFE3E2;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B88C61;
+}

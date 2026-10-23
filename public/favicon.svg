@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#172637"/>
+  <!-- Ivory Geometric H Monogram -->
+  <path d="M18 16 H26 V28 H38 V16 H46 V48 H38 V36 H26 V48 H18 Z" fill="#F7F5F0"/>
+  <!-- Premium Copper Dot Accent -->
+  <circle cx="48" cy="16" r="3.5" fill="#B88C61"/>
+</svg>
