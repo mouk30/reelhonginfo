@@ -38,7 +38,7 @@ export const ArchiveView: React.FC<ArchiveViewProps> = ({ onNavigate }) => {
         <div className="bg-white rounded-xl border border-[#DFE3E2] overflow-hidden shadow-xs">
           <div className="aspect-16/9 bg-[#101B29] relative overflow-hidden">
             <img
-              src="/src/assets/images/arcade_culture_2000s_1792680959573.jpg"
+              src="/assets/images/arcade_culture_2000s_1792680959573.jpg"
               alt="1990년대 및 2000년대 초반 한국 골목 오락실 현장 다큐멘터리 사진"
               className="w-full h-full object-cover"
               loading="lazy"

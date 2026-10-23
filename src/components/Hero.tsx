@@ -65,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               {/* Image Container */}
               <div className="relative aspect-16/10 rounded-lg overflow-hidden bg-[#101B29]">
                 <img
-                  src="/src/assets/images/hero_archive_reel_1792680956216.jpg"
+                  src="/assets/images/hero_archive_reel_1792680956216.jpg"
                   alt="2000년대 한국 아케이드 및 릴게임 역사 회고전 아카이브 전시관 전경"
                   className="w-full h-full object-cover"
                   loading="eager"

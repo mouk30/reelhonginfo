@@ -11,7 +11,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     publishedDate: '2026-03-15',
     modifiedDate: '2026-10-22',
     readingTime: '7분 독해',
-    coverImage: '/src/assets/images/arcade_culture_2000s_1792680959573.jpg',
+    coverImage: '/assets/images/arcade_culture_2000s_1792680959573.jpg',
     summary: '2006년 여름 대한민국을 강타했던 바다이야기 사태의 발발부터 전국 1만 5천여 개 성인오락실의 동시 셔터 폐쇄에 이르기까지, 행정 부실과 탐욕, 그리고 사법 단속의 전말을 사회학적 시각에서 복원합니다.',
     directAnswer: '2006년 8월 단행된 사행성 게임장 전면 단속은 한국 현대사에서 단일 유흥 산업에 가해진 가장 강력한 공권력 행사였습니다. 대검찰청 특별수사본부와 경찰청의 합동 작전으로 수만 대의 기기가 압류되었고, 상품권 폐지 법안이 통과되면서 불과 수개월 만에 전국 1만 5,000개 오락실이 자취를 감추었습니다. 이 사건은 이후 한국 게임 산업의 심의 체계와 사행성 방지 가이드라인을 영구적으로 재편하는 분수령이 되었습니다.',
     tableOfContents: [
@@ -62,7 +62,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     publishedDate: '2026-04-02',
     modifiedDate: '2026-10-22',
     readingTime: '6분 독해',
-    coverImage: '/src/assets/images/hero_archive_reel_1792680956216.jpg',
+    coverImage: '/assets/images/hero_archive_reel_1792680956216.jpg',
     summary: '비디오 릴게임의 코어에서 작동하는 의사 난수 발생기(PRNG)와, 유저의 뇌 속에 도파민을 분비시키는 ‘예시 연출’의 시각 인지 심리학적 메커니즘을 기술적으로 파헤칩니다.',
     directAnswer: '릴게임의 ‘예시’ 기능은 순수한 수학적 무작위 확률을 유저가 통제 가능하거나 예측 가능한 법칙으로 착각하도록 설계된 고도의 인지 유도 장치입니다. 내부 알고리즘은 이미 버튼을 누르는 순간 1밀리초 만에 당첨 여부를 결정하지만, 화면에서는 10~20초 동안 거북이, 상어, 잠수함 등이 단계적으로 지나가며 "거의 당첨될 뻔했다"는 근접 미스(Near Miss) 착시를 유발합니다.',
     tableOfContents: [
