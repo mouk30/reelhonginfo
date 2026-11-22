@@ -41,6 +41,22 @@
   }
 }
 
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Custom Editorial Utilities */
 .font-display {
   font-family: var(--font-display);
@@ -48,6 +64,10 @@
 
 .font-editorial-serif {
   font-family: var(--font-serif);
+}
+
+.font-cta {
+  font-family: 'GmarketSans', var(--font-sans);
 }
 
 .editorial-container {

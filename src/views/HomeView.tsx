@@ -119,10 +119,10 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
                       href="https://reelkings.kr"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full py-2.5 bg-[#D2AE78] hover:bg-[#e0be88] text-[#172637] font-semibold text-xs rounded-lg transition-colors flex items-center justify-center gap-1.5 shadow-xs cursor-pointer"
+                      className="w-full py-3 sm:py-3.5 bg-[#D2AE78] hover:bg-[#e0be88] text-[#172637] font-cta font-bold text-base sm:text-[17px] tracking-tight rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm cursor-pointer"
                     >
                       <span>사이트 바로가기</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
+                      <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 stroke-[2.5]" />
                     </a>
                   </div>
                 </div>
