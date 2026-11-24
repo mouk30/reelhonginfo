@@ -41,92 +41,92 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
           {/* Quick Links Column 1: Encyclopedia & Games */}
           <div className="space-y-3">
-            <h4 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
+            <h2 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
               게임 및 백과
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs text-[#DFE3E2]/80">
               <li>
-                <button onClick={() => onNavigate('/encyclopedia')} className="hover:text-white transition-colors">
+                <a href="/encyclopedia" onClick={(e) => { e.preventDefault(); onNavigate('/encyclopedia'); }} className="hover:text-white transition-colors">
                   릴게임 메커니즘 총론
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/encyclopedia')} className="hover:text-white transition-colors">
+                <a href="/encyclopedia" onClick={(e) => { e.preventDefault(); onNavigate('/encyclopedia'); }} className="hover:text-white transition-colors">
                   용어 및 은어 사전
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/games')} className="hover:text-white transition-colors">
+                <a href="/games" onClick={(e) => { e.preventDefault(); onNavigate('/games'); }} className="hover:text-white transition-colors">
                   6대 대표 게임 비교
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/games/sea-story')} className="hover:text-white transition-colors">
+                <a href="/games/sea-story" onClick={(e) => { e.preventDefault(); onNavigate('/games/sea-story'); }} className="hover:text-white transition-colors">
                   바다이야기 심층 분석
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/games/yamato')} className="hover:text-white transition-colors">
+                <a href="/games/yamato" onClick={(e) => { e.preventDefault(); onNavigate('/games/yamato'); }} className="hover:text-white transition-colors">
                   야마토 연출 계보
-                </button>
+                </a>
               </li>
             </ul>
           </div>
 
           {/* Quick Links Column 2: Archive & Research */}
           <div className="space-y-3">
-            <h4 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
+            <h2 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
               문화 및 법제도
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs text-[#DFE3E2]/80">
               <li>
-                <button onClick={() => onNavigate('/archive')} className="hover:text-white transition-colors">
+                <a href="/archive" onClick={(e) => { e.preventDefault(); onNavigate('/archive'); }} className="hover:text-white transition-colors">
                   1990~2000s 오락실 연표
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/library')} className="hover:text-white transition-colors">
+                <a href="/library" onClick={(e) => { e.preventDefault(); onNavigate('/library'); }} className="hover:text-white transition-colors">
                   게임산업진흥법 분석
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/library')} className="hover:text-white transition-colors">
+                <a href="/library" onClick={(e) => { e.preventDefault(); onNavigate('/library'); }} className="hover:text-white transition-colors">
                   사행성 규제 및 판례
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/journal')} className="hover:text-white transition-colors">
+                <a href="/journal" onClick={(e) => { e.preventDefault(); onNavigate('/journal'); }} className="hover:text-white transition-colors">
                   홍박사 기획 매거진
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/library')} className="hover:text-white transition-colors">
+                <a href="/library" onClick={(e) => { e.preventDefault(); onNavigate('/library'); }} className="hover:text-white transition-colors">
                   중독 예방 가이드 (1336)
-                </button>
+                </a>
               </li>
             </ul>
           </div>
 
           {/* Quick Links Column 3: Trust & Policies */}
           <div className="space-y-3">
-            <h4 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
+            <h2 className="text-xs uppercase tracking-widest font-semibold text-[#D2AE78]">
               편집 및 정정 정책
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs text-[#DFE3E2]/80">
               <li>
-                <button onClick={() => onNavigate('/about')} className="hover:text-white transition-colors">
+                <a href="/about" onClick={(e) => { e.preventDefault(); onNavigate('/about'); }} className="hover:text-white transition-colors">
                   홍박사 아카이브 소개
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/about')} className="hover:text-white transition-colors">
+                <a href="/about" onClick={(e) => { e.preventDefault(); onNavigate('/about'); }} className="hover:text-white transition-colors">
                   팩트체크 및 출처 원칙
-                </button>
+                </a>
               </li>
               <li>
-                <button onClick={() => onNavigate('/about')} className="hover:text-white transition-colors">
+                <a href="/about" onClick={(e) => { e.preventDefault(); onNavigate('/about'); }} className="hover:text-white transition-colors">
                   콘텐츠 정정 신청
-                </button>
+                </a>
               </li>
               <li>
                 <a href="/robots.txt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">

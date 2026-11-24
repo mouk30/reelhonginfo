@@ -1,4 +1,4 @@
-import { GameDetail } from '../types';
+import type { GameDetail } from '../types/index.ts';
 
 export const CLASSIC_GAMES: GameDetail[] = [
   {

@@ -51,9 +51,9 @@ export const EncyclopediaView: React.FC<EncyclopediaViewProps> = ({ onNavigate }
             <div className="w-9 h-9 rounded-lg bg-[#F7F5F0] border border-[#DFE3E2] flex items-center justify-center text-[#365E65]">
               <Cpu className="w-5 h-5" />
             </div>
-            <h3 className="font-editorial-serif text-lg font-bold text-[#172637]">
+            <h2 className="font-editorial-serif text-lg font-bold text-[#172637]">
               하드웨어와 RNG
-            </h3>
+            </h2>
             <p className="text-xs text-[#68747D] leading-relaxed">
               임베디드 보드, ROM 칩, 의사 난수 발생기(PRNG)를 통한 매 스핀 독립 추첨 로직 및 불법 변조 기판의 구조적 결함.
             </p>
@@ -63,9 +63,9 @@ export const EncyclopediaView: React.FC<EncyclopediaViewProps> = ({ onNavigate }
             <div className="w-9 h-9 rounded-lg bg-[#F7F5F0] border border-[#DFE3E2] flex items-center justify-center text-[#B88C61]">
               <Eye className="w-5 h-5" />
             </div>
-            <h3 className="font-editorial-serif text-lg font-bold text-[#172637]">
+            <h2 className="font-editorial-serif text-lg font-bold text-[#172637]">
               예시와 심리 공학
-            </h3>
+            </h2>
             <p className="text-xs text-[#68747D] leading-relaxed">
               바다 속 고래, 상어 떼, 우주전함 워프 등 당첨 직전 뇌 속 도파민을 분비시키는 근접 미스(Near Miss) 시각 효과 분석.
             </p>
@@ -75,9 +75,9 @@ export const EncyclopediaView: React.FC<EncyclopediaViewProps> = ({ onNavigate }
             <div className="w-9 h-9 rounded-lg bg-[#F7F5F0] border border-[#DFE3E2] flex items-center justify-center text-[#172637]">
               <CreditCard className="w-5 h-5" />
             </div>
-            <h3 className="font-editorial-serif text-lg font-bold text-[#172637]">
+            <h2 className="font-editorial-serif text-lg font-bold text-[#172637]">
               상품권 유통 경제
-            </h3>
+            </h2>
             <p className="text-xs text-[#68747D] leading-relaxed">
               법정 배출 한도를 맞추기 위해 도입된 5,000원권 문화상품권과 뒷골목 사설 환전소의 10% 수수료 환전 카르텔.
             </p>

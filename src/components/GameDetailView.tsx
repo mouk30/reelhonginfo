@@ -213,9 +213,9 @@ export const GameDetailView: React.FC<GameDetailViewProps> = ({ game, onNavigate
             
             {/* Hardware Specification Box */}
             <div className="bg-white p-5 rounded-xl border border-[#DFE3E2] shadow-xs space-y-4">
-              <h3 className="font-editorial-serif text-lg font-bold text-[#172637] pb-2 border-b border-[#DFE3E2]">
+              <h2 className="font-editorial-serif text-lg font-bold text-[#172637] pb-2 border-b border-[#DFE3E2]">
                 하드웨어 제원 (Hardware Specs)
-              </h3>
+              </h2>
               <dl className="space-y-3 text-xs">
                 <div>
                   <dt className="text-[#68747D] font-medium">외형 캐비닛</dt>
@@ -240,11 +240,11 @@ export const GameDetailView: React.FC<GameDetailViewProps> = ({ game, onNavigate
               </dl>
             </div>
 
-            {/* Quick 7 Games Navigation */}
+            {/* Quick 6 Games Navigation */}
             <div className="bg-white p-5 rounded-xl border border-[#DFE3E2] shadow-xs space-y-3">
-              <h4 className="text-xs uppercase tracking-widest font-semibold text-[#365E65]">
+              <h2 className="text-xs uppercase tracking-widest font-semibold text-[#365E65]">
                 6대 대표 릴게임 목록
-              </h4>
+              </h2>
               <div className="space-y-1">
                 {CLASSIC_GAMES.map((g) => (
                   <button

@@ -23,5 +23,5 @@
   <!-- Bottom Brand Mark -->
   <line x1="100" y1="500" x2="1100" y2="500" stroke="#365E65" stroke-width="1" stroke-opacity="0.4" />
   <text x="100" y="535" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="600" letter-spacing="0.1em" fill="#F7F5F0">HONG INFO</text>
-  <text x="1100" y="535" text-anchor="end" font-family="'Pretendard Variable', -apple-system, sans-serif" font-size="16" fill="#D2AE78">honginfo.org</text>
+  <text x="1100" y="535" text-anchor="end" font-family="'Pretendard Variable', -apple-system, sans-serif" font-size="16" fill="#D2AE78">reelgamemong.com</text>
 </svg>

@@ -32,8 +32,12 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate, onOpenS
         <div className="flex items-center justify-between gap-2 lg:gap-4 h-20">
           
           {/* Zone 1: Brand Wordmark */}
-          <button
-            onClick={() => handleNavClick('/')}
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick('/');
+            }}
             className="flex items-center gap-2 sm:gap-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B88C61] rounded-sm py-1 shrink-0"
             aria-label="릴게임 홍박사 | 사이트 INFO 홈으로 이동"
           >
@@ -53,16 +57,21 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate, onOpenS
                 릴게임 홍박사 <span className="text-[#B88C61]">|</span> 사이트 INFO
               </span>
             </div>
-          </button>
+          </a>
 
           {/* Zone 2: Navigation Links (Desktop) */}
-          <nav className="hidden lg:flex items-center gap-3 xl:gap-5 text-sm font-medium text-[#20272D]">
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-5 text-sm font-medium text-[#20272D]" aria-label="주 메뉴">
             {navLinks.map((link) => {
               const isActive = currentPath === link.path || (link.path !== '/' && currentPath.startsWith(link.path));
               return (
-                <button
+                <a
                   key={link.path}
-                  onClick={() => handleNavClick(link.path)}
+                  href={link.path}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick(link.path);
+                  }}
+                  aria-current={isActive ? 'page' : undefined}
                   className={`transition-colors py-1 relative whitespace-nowrap shrink-0 text-sm xl:text-[15px] cursor-pointer ${
                     isActive
                       ? 'text-[#172637] font-bold'
@@ -73,7 +82,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate, onOpenS
                   {isActive && (
                     <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#B88C61]" />
                   )}
-                </button>
+                </a>
               );
             })}
           </nav>
@@ -115,13 +124,18 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate, onOpenS
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-[#DFE3E2] bg-[#F7F5F0] px-6 py-5 shadow-lg">
-          <nav className="flex flex-col space-y-3">
+          <nav className="flex flex-col space-y-3" aria-label="모바일 메뉴">
             {navLinks.map((link) => {
               const isActive = currentPath === link.path || (link.path !== '/' && currentPath.startsWith(link.path));
               return (
-                <button
+                <a
                   key={link.path}
-                  onClick={() => handleNavClick(link.path)}
+                  href={link.path}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick(link.path);
+                  }}
+                  aria-current={isActive ? 'page' : undefined}
                   className={`text-left text-base py-2.5 px-3 rounded-md transition-colors ${
                     isActive
                       ? 'bg-[#172637] text-white font-medium'
@@ -129,7 +143,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate, onOpenS
                   }`}
                 >
                   {link.label}
-                </button>
+                </a>
               );
             })}
           </nav>

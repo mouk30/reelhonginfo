@@ -320,7 +320,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               <div className="w-8 h-8 rounded bg-[#365E65] flex items-center justify-center text-[#D2AE78] mb-3">
                 <BookOpen className="w-4 h-4" />
               </div>
-              <h4 className="font-semibold text-sm text-[#F7F5F0]">릴게임 메커니즘 총론</h4>
+              <h3 className="font-semibold text-sm text-[#F7F5F0]">릴게임 메커니즘 총론</h3>
               <p className="text-xs text-[#DFE3E2]/70 leading-relaxed">
                 슬롯머신과의 차이, 메인보드 칩 개조, 가변 환급률의 실체 분석
               </p>
@@ -333,7 +333,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               <div className="w-8 h-8 rounded bg-[#365E65] flex items-center justify-center text-[#D2AE78] mb-3">
                 <FileText className="w-4 h-4" />
               </div>
-              <h4 className="font-semibold text-sm text-[#F7F5F0]">용어 및 은어 사전</h4>
+              <h3 className="font-semibold text-sm text-[#F7F5F0]">용어 및 은어 사전</h3>
               <p className="text-xs text-[#DFE3E2]/70 leading-relaxed">
                 연타, 예시, 잠식, 모닝, 체스트 우퍼 등 당시 오락실 풍속어 10선
               </p>
@@ -346,7 +346,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               <div className="w-8 h-8 rounded bg-[#365E65] flex items-center justify-center text-[#D2AE78] mb-3">
                 <Scale className="w-4 h-4" />
               </div>
-              <h4 className="font-semibold text-sm text-[#F7F5F0]">게임산업진흥법과 규제사</h4>
+              <h3 className="font-semibold text-sm text-[#F7F5F0]">게임산업진흥법과 규제사</h3>
               <p className="text-xs text-[#DFE3E2]/70 leading-relaxed">
                 2006년 특수본 수사, 영등위 심의 취소, 상품권 영구 폐지 법조문 해설
               </p>

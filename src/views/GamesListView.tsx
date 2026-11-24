@@ -71,9 +71,9 @@ export const GamesListView: React.FC<GamesListViewProps> = ({ onNavigate }) => {
                   </div>
 
                   <div>
-                    <h3 className="font-editorial-serif text-2xl font-bold text-[#172637] group-hover:text-[#B88C61] transition-colors">
+                    <h2 className="font-editorial-serif text-2xl font-bold text-[#172637] group-hover:text-[#B88C61] transition-colors">
                       {game.title}
-                    </h3>
+                    </h2>
                     <div className="text-xs text-[#68747D] font-mono mt-0.5">
                       {game.englishTitle} · {game.developer}
                     </div>

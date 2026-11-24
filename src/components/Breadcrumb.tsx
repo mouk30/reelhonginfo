@@ -20,12 +20,16 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items, onNavigate }) => 
                   {item.name}
                 </span>
               ) : (
-                <button
-                  onClick={() => onNavigate(item.url)}
+                <a
+                  href={item.url}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate(item.url);
+                  }}
                   className="hover:text-[#B88C61] transition-colors whitespace-nowrap underline-offset-4 hover:underline"
                 >
                   {item.name}
-                </button>
+                </a>
               )}
             </li>
           );

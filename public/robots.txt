@@ -1,11 +1,10 @@
 User-agent: *
 Allow: /
 
-# Googlebot specific directives
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://honginfo.org/sitemap.xml
+Sitemap: https://reelgamemong.com/sitemap.xml

@@ -54,9 +54,9 @@ export const ArchiveView: React.FC<ArchiveViewProps> = ({ onNavigate }) => {
           </div>
 
           <div className="p-6 md:p-8 space-y-4">
-            <h3 className="font-editorial-serif text-2xl font-bold text-[#172637]">
+            <h2 className="font-editorial-serif text-2xl font-bold text-[#172637]">
               동전의 짤랑거림에서 기계의 굉음으로
-            </h3>
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-[#20272D] leading-relaxed">
               <p>
                 1990년대 초중반의 오락실은 아이들의 왁자지껄한 목소리와 브라운관에서 뿜어져 나오는 8비트·16비트 사운드가 공존하던 동네의 문화 사랑방이었습니다. 동전 교환기에서 100원 주화를 바꾼 뒤 기계 위에 줄을 세워두고 차례를 기다리던 풍경은 그 시절을 지나온 세대에게 잊을 수 없는 유년의 온기였습니다.
